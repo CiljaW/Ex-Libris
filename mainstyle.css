@@ -8,6 +8,10 @@ header div{
 	background-color: #ed303c;
 }
 
+nav {
+	background-color: #ff9c5b;
+}
+
 h1 {
 	margin-top: 0;
 	color: #ffffff;
@@ -18,7 +22,7 @@ h1 {
 Palette:
 
 color 1, light orange: #fad089
-color 2, darker orange: #ff9c5b
+nav bg color 2, darker orange: #ff9c5b
 header background color, red: #ed303c
 background color, blue: #3b8183
 color 5, darker blue: #2b696b
