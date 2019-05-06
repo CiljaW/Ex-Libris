@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Ex Libris</title>
+	<script type="text/javascript" src="theScripts.js"></script>
 	<link rel="stylesheet" type="text/css" href="mainstyle.css">
 </head>
 <body>
@@ -20,7 +21,7 @@
 	</nav>
 	<main>
 		<!-- Books -->
-		<section id="books">
+		<div id="books">
 			<h2>Books</h2>
 			<p>All the books</p>
 			<article>
@@ -65,16 +66,11 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 			</article>
-			<div class="backTopButton">
-				<a title="Go to the top" href="#">
-					<div class="arrowUp">&#9650;</div>
-				</a>
-			</div>
-		</section>
+		</div>
 		<!-- end of Books -->
 
 		<!-- Movies -->
-		<section id="movies">
+		<div id="movies">
 			<h2>Movies</h2>
 			<p>All the movies</p>
 			<article>
@@ -119,16 +115,11 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 			</article>
-			<div class="backTopButton">
-				<a title="Go to the top" href="#">
-					<div class="arrowUp">&#9650;</div>
-				</a>
-			</div>
-		</section>
+		</div>
 		<!-- end of Movies -->
 
 		<!-- Games -->
-		<section id="games">
+		<div id="games">
 			<h2>Games</h2>
 			<p>All the Games</p>
 			<article>
@@ -173,24 +164,18 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 			</article>
-			<div class="backTopButton">
-				<a title="Go to the top" href="#">
-					<div class="arrowUp">&#9650;</div>
-				</a>
-			</div>
-		</section>
+		</div>
 		<!-- end of Games -->
+		
+		<!-- Back to the top - button -->
+		<button onclick="topFunction()" id="backTopButton" title="Go to the top">&#9650;</button>
+		<!-- end of Back to the top - button -->
 
 	</main>
 	<footer>
 		<div>
 			<h3>Footer</h3>
 			<p>This is the end</p>
-			<div class="backTopButton">
-				<a title="Go to the top" href="#">
-					<div class="arrowUp">&#9650;</div>
-				</a>
-			</div>
 		</div>
 	</footer>
 </body>
