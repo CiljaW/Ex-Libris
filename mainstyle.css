@@ -5,11 +5,27 @@ body {
 }
 
 header div{
+	height: 4em;
 	background-color: #ed303c;
+	font-size: 2em;
 }
 
 nav {
+	/*height: 35px;*/
 	background-color: #ff9c5b;
+}
+nav a {
+	background-color: #ff9c5b;
+	text-decoration: none;
+	font-size: 31px;
+	color: #ffffff;
+}
+
+nav a:hover{
+	font-weight: bolder;
+	font-size: 31px;
+	color: #ff9c5b;
+	background-color: #ffffff;
 }
 
 h1 {
@@ -17,6 +33,39 @@ h1 {
 	color: #ffffff;
 }
 
+footer div{
+	background-color: #2b696b;
+}
+
+.backTopButton {
+	margin-left: 10px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	background-color: #ff9c5b; 
+	color: #ffffff;
+	font-size: 35px;
+}
+.backTopButton a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.backTopButton a:hover {
+	font-weight: bolder;
+	color: #ed303c;
+}
+
+footer .backTopButton div{
+	background-color: #ed303c; 
+}
+
+footer .backTopButton a{
+	background-color: #ed303c; 
+}
+
+footer .backTopButton a:hover {
+	color: #ff9c5b;
+}
 
 /*
 Palette:
@@ -25,5 +74,5 @@ color 1, light orange: #fad089
 nav bg color 2, darker orange: #ff9c5b
 header background color, red: #ed303c
 background color, blue: #3b8183
-color 5, darker blue: #2b696b
+footer color 5, darker blue: #2b696b
 */
