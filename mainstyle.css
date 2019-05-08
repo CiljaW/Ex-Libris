@@ -60,6 +60,18 @@ header p:hover {
 	max-width: 100%;
 	background-color: #ed303c;
 }
+
+#melonslice{
+	position: absolute;
+	left: 450px;
+	top: 20px;
+}
+
+#melonslice:hover {
+	transition: all 1.2s ease-in-out;
+	transform: rotateZ(360deg);
+}
+
 /*end of Header*/
 
 
