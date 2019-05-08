@@ -1,18 +1,13 @@
 {
   "short_name": "Libris",
   "name": "Ex Libris",
-  // "icons": [
-  //   {
-  //     "src": "/images/icons-192.png",
-  //     "type": "image/png",
-  //     "sizes": "192x192"
-  //   },
-  //   {
-  //     "src": "/images/icons-512.png",
-  //     "type": "image/png",
-  //     "sizes": "512x512"
-  //   }
-  // ],
+  "icons": [
+    {
+      "src": "images/melonslice.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
   "start_url": "/exlibris/index.html",
   "background_color": "#295a5b",
   "display": "standalone",
