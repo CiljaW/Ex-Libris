@@ -218,23 +218,23 @@ header, nav, main, footer{
 
 /*Divider Lines*/
 footer hr {
-/*width: 100%;*/
-display: block;
-height: 1px;
-border: 0;
-border-top: 7px solid #295a5b;
-margin: auto;
-padding: 0;
-margin-left: -30px;
+	/*width: 100%;*/
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 7px solid #295a5b;
+	margin: auto;
+	padding: 0;
+	margin-left: -30px;
 }
 
 .dividerLine, .contentDividerLine {
-height: 1px;
-width: 90%;
-border: 0;
-border-top: 5px solid #295a5b;
-margin: auto;
-padding: 0;
+	height: 1px;
+	width: 90%;
+	border: 0;
+	border-top: 5px solid #295a5b;
+	margin: auto;
+	padding: 0;
 }
 
 .contentDividerLine {
