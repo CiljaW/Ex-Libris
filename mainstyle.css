@@ -17,7 +17,7 @@ header a{
 }
 
 header h1:hover {
-	width: 4.1em;
+	width: 4.5em;
 	color: #295a5b;
 	background-color: #ffffff;
 	transition: all 0.2s ease-in-out;
@@ -26,30 +26,30 @@ header h1:hover {
 }
 
 header h1{
-	width: 4.1em;
+	width: 4.5em;
 	max-width: 100%;
 	margin-top: 0;
 	margin-bottom: 0;
-	color: #ffffff;
-	font-size: 80px;
+	font-size: 75px;
 }
 header div{
 	margin-left: 30px;
 }
 
 header p{
-	height: 20px;
-	width: 464px;
+	height: 35px;
+	width: 336px;
 	max-width: 100%;
 	margin: 0px;
 	margin-left: 30px;
 	padding-bottom: 40px;
 	color: #ffffff;
-	font-size: 40px;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 55px;
 }
 header p:hover {
-	height: 20px;
-	width: 464px;
+	height: 35px;
+	width: 336px;
 	color: #295a5b;
 	background-color: #ffffff;
 	transition: all 0.2s ease-in-out;
@@ -72,7 +72,6 @@ nav a {
 	background-color: #ff9c5b;
 	text-decoration: none;
 	font-size: 31px;
-	color: #ffffff;
 	padding-right: 100px;
 }
 
@@ -86,7 +85,6 @@ nav a:hover{
 	background-color: #ffffff;
 	transition: all 0.2s ease-in-out;
 	box-shadow: 0 6px 14px 0 #142d2d;
-	/*box-shadow: 0 6px 14px 0  #fff;*/
 }
 #navContent {
 	background-color: #ff9c5b;
@@ -101,7 +99,29 @@ nav a:hover{
 	background-color: #3b8183;
 }
 
-#books, #movies, #games, #about {
+/*Fonts*/
+
+#mainContent h2 {
+	font-size: 35px;
+}
+#mainContent h3 {
+	font-size: 25px;
+}
+
+header h1, #mainContent h2, #mainContent h3, nav a, footer h3 {
+	font-family: 'Fredericka the Great', cursive;
+	font-weight: normal;	
+	color: #ffffff;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Josefin Slab', serif;
+}
+
+/*end of Fonts*/
+
+#books, #movies, #shows, #games, #about {
 	margin: 0px;
 	padding: 30px;
 }
@@ -117,9 +137,15 @@ nav a:hover{
 }
 /*end of Movies*/
 
+/*Movies*/
+#shows {
+	background-color: #75a6a8;
+}
+/*end of Movies*/
+
 /*Games*/
 #games {
-	background-color: #75a6a8;
+	background-color: #89b3b4;
 }
 /*end of Games*/
 
@@ -189,10 +215,8 @@ header, nav, main, footer{
 }
 /* end of Button that takes you to the top*/
 
-#copyRights {
-	color: #ffffff;
-}
 
+/*Divider Lines*/
 footer hr {
 /*width: 100%;*/
 display: block;
@@ -216,14 +240,44 @@ padding: 0;
 .contentDividerLine {
 	width: 100%;
 }
+/*end of Divider Lines*/
+
+
+#copyRights {
+	color: #ffffff;
+}
+
 
 
 /*
+
+NOTES:
+
 Color Palette:
 
-color 1, light orange: #fad089
-nav bg color 2, darker orange: #ff9c5b
-header background color, red: #ed303c
-background color, blue: #3b8183
-footer color 5, darker blue: #2b696b
+• Title fonts & copyright text, white: #ffffff
+• Main fonts, black: #000000
+• Go-Up button, white/red: #ffffff & #ed303c on :hover
+
+• html base bg & Divider Lines, blue: #295a5b
+• Side panels bg, blue: #295a5b
+• body bg, blue: #3b8183
+• Header bg, red: #ed303c
+• Nav bg & Go-Up Button bg, orange: #ff9c5b
+• Books & About bg, blue: #4e8d8f
+• Movies bg, blue: #629a9b
+• TV Shows bg, blue: #75a6a8
+• Games bg, blue: #89b3b4
+• Footer bg, blue: #2b696b
+
+
+• UNUSED color 1, light orange: #fad089
+
+
+Fonts:
+
+• Header/Logo/titles/nav: font-family: 'Fredericka the Great', cursive;
+• Sub-header: font-family: 'Just Another Hand', cursive;
+• main text/paragraphs: font-family: 'Josefin Slab', serif;
+
 */
